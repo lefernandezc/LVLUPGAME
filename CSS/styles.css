@@ -45,6 +45,17 @@ h1 {
   color: #000;
 }
 
+.login-container {
+  background-color: #111111;
+  border: 2px solid #1e90ff; /* Azul eléctrico */
+  border-radius: 15px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.5);
+}
+
 /* 🔹 Estilos Navbar */
 .navbar {
   background-color: #000000 !important;
