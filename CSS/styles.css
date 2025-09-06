@@ -1,0 +1,80 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #39ff14; /* Verde Neón */
+  margin-bottom: 30px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search-box {
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-control {
+  border: 2px solid #1e90ff; /* Azul Eléctrico */
+  border-radius: 30px;
+}
+
+.btn-search {
+  background-color: #1e90ff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.btn-search:hover {
+  background-color: #39ff14;
+  color: #000;
+}
+
+/* 🔹 Estilos Navbar */
+.navbar {
+  background-color: #000000 !important;
+  border-bottom: 2px solid #1e90ff;
+}
+
+.navbar-brand {
+  font-family: "Orbitron", sans-serif;
+  color: #39ff14 !important; /* Verde Neón */
+}
+
+.nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #1e90ff !important; /* Azul Eléctrico */
+}
+
+.dropdown-menu {
+  background-color: #111;
+  border: 1px solid #1e90ff;
+}
+
+.dropdown-item {
+  color: #ffffff;
+}
+
+.dropdown-item:hover {
+  background-color: #1e90ff;
+  color: #000000;
+}
