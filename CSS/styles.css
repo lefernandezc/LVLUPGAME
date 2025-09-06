@@ -44,7 +44,7 @@ h1 {
   background-color: #39ff14;
   color: #000;
 }
-
+/* inicio de sesion*/
 .login-container {
   background-color: #111111;
   border: 2px solid #1e90ff; /* Azul eléctrico */
@@ -55,8 +55,45 @@ h1 {
   text-align: center;
   box-shadow: 0 0 20px rgba(30, 144, 255, 0.5);
 }
+h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #39ff14; /* Verde neón */
+  margin-bottom: 30px;
+}
 
-/* 🔹 Estilos Navbar */
+.form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #1e90ff;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  border-color: #39ff14;
+  box-shadow: 0 0 10px #39ff14;
+}
+
+.btn-login {
+  background-color: #1e90ff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #39ff14;
+  color: #000;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
+  display: none;
+}
+/*Estilos Navbar */
 .navbar {
   background-color: #000000 !important;
   border-bottom: 2px solid #1e90ff;
