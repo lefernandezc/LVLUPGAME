@@ -110,7 +110,7 @@ h1 {
 
 /* Inputs */
 .login-container .form-control {
-  background-color: #222;
+  background-color: #d3d3d3;
   border: 1px solid #1e90ff;
   color: #fff;
 }
@@ -153,4 +153,65 @@ h1 {
 .btn-signup:hover {
   background-color: #1e90ff; /* Azul eléctrico */
   color: #fff;
+}
+
+/* Contenedor del formulario */
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: #111;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.6); /* glow verde gamer */
+  text-align: center;
+}
+
+/* Título */
+.register-container h2 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #1e90ff; /* azul eléctrico */
+}
+
+/* Inputs */
+.register-container .form-control {
+  background-color: #d3d3d3;
+  border: 1px solid #39ff14;
+  color: #fff;
+}
+
+.register-container .form-control:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.5);
+}
+
+/* Checkbox */
+.register-container .form-check-label {
+  color: #d3d3d3;
+}
+
+/* Botón */
+.btn-register {
+  width: 100%;
+  background-color: #39ff14;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+/* Link de login */
+.link-login {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-login:hover {
+  color: #39ff14;
 }
