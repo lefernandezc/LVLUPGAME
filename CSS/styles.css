@@ -42,49 +42,82 @@ h1 {
 
 .btn-search:hover {
   background-color: #39ff14;
-  color: #000;
+  color: #fff;
 }
+
+/* Fondo del header */
+.header {
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Marca de la tienda (Level-Up Gamer) */
+.navbar {
+  background-color: #000000; /* Fondo*/
+  border-bottom: 2px solid #1e90ff; /* Azul eléctrico */
+}
+.navbar-toggler {
+  border-color: #39ff14; /* Verde neón */
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  color: #39ff14 !important; /* Verde neón */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #1e90ff !important; /* Azul eléctrico */
+}
+
+/* Items de navegación */
+.nav-link {
+  color: #ffffff !important; /* Texto blanco */
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #1e90ff !important; /* Azul eléctrico */
+  transform: scale(1.05);
+}
+
+/* Botón activo */
+.il-active {
+  border-bottom: 2px solid #39ff14; /* Verde neón como indicador */
+}
+
 /* inicio de sesion*/
 .login-container {
-  background-color: #111111;
-  border: 2px solid #1e90ff; /* Azul eléctrico */
-  border-radius: 15px;
-  padding: 40px;
-  width: 100%;
-  max-width: 400px;
+  max-width: 400px; /* ancho fijo */
+  margin: 50px auto; /* lo centra horizontalmente */
+  padding: 2rem;
+  background: #111; /* fondo oscuro para contraste */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.6); /* glow azul gamer */
   text-align: center;
-  box-shadow: 0 0 20px rgba(30, 144, 255, 0.5);
 }
-h2 {
+
+/* Título */
+.login-container h2 {
   font-family: "Orbitron", sans-serif;
-  color: #39ff14; /* Verde neón */
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
+  color: #39ff14; /* verde neón */
 }
 
-.form-control {
-  background-color: #000000;
-  color: #ffffff;
+/* Inputs */
+.login-container .form-control {
+  background-color: #222;
   border: 1px solid #1e90ff;
-  border-radius: 10px;
-}
-
-.form-control:focus {
-  border-color: #39ff14;
-  box-shadow: 0 0 10px #39ff14;
-}
-
-.btn-login {
-  background-color: #1e90ff;
   color: #fff;
-  border-radius: 30px;
-  padding: 10px;
-  width: 100%;
-  transition: 0.3s;
 }
 
-.btn-login:hover {
-  background-color: #39ff14;
-  color: #000;
+.login-container .form-control:focus {
+  border-color: #39ff14;
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
 }
 
 .error-msg {
@@ -93,36 +126,31 @@ h2 {
   font-size: 14px;
   display: none;
 }
-/*Estilos Navbar */
-.navbar {
-  background-color: #000000 !important;
-  border-bottom: 2px solid #1e90ff;
-}
 
-.navbar-brand {
-  font-family: "Orbitron", sans-serif;
-  color: #39ff14 !important; /* Verde Neón */
-}
-
-.nav-link {
-  color: #ffffff !important;
-  transition: 0.3s;
-}
-
-.nav-link:hover {
-  color: #1e90ff !important; /* Azul Eléctrico */
-}
-
-.dropdown-menu {
-  background-color: #111;
-  border: 1px solid #1e90ff;
-}
-
-.dropdown-item {
-  color: #ffffff;
-}
-
-.dropdown-item:hover {
+/* Botones de acción */
+.btn-login {
+  width: 100%;
   background-color: #1e90ff;
-  color: #000000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #39ff14;
+  color: #000;
+}
+
+.btn-signup {
+  background-color: #39ff14; /* Verde neón */
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #1e90ff; /* Azul eléctrico */
+  color: #fff;
 }
